@@ -1,0 +1,41 @@
+
+.supplier_signup{
+    
+    font-weight: 900;
+    font-size: 27px;
+    color: #313131;
+}
+.para{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(49, 49, 49, 0.7);
+}
+.label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #313131;
+    margin-top: 20px;
+}
+.input{
+    margin-top: 6px;
+    width: 299.8px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 0.6px solid #CDCDCD;
+    box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);
+    border-radius: 6px;
+    
+}
+.input::placeholder{
+    font-size: 14px;
+    color: rgba(49, 49, 49, 0.5);
+    flex: none;
+    order: 1;
+    padding-left: 25px;
+    flex-grow: 1;
+    /* background-image: url('../../../public/Icon.svg');
+    background-repeat: no-repeat; */
+    
+}
