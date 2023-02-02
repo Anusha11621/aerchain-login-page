@@ -21,10 +21,10 @@ class Navbar extends Component {
   };
   render() {
     return (
-      <Box sx={{ flexGrow: 1 }} height="71px">
+      <Box style={{ flexGrow: 1 }} height="71px" >
         <AppBar
-          position="static"
-          sx={{
+          position="fixed"
+          style={{
             height: "71px",
             backgroundColor: "#FCFCFD",
           }}
@@ -40,6 +40,7 @@ class Navbar extends Component {
                 padding: `${this.state.toggle ? " 8px 29.9px" : " 8px 34.4px"}`,
                 marginRight: "18px",
                 borderRadius: "6.4px",
+                boxShadow: 3,
               }}
             >
               {this.state.toggle ? "I am Customer" : "I am Supplier"}

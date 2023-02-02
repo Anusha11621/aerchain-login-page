@@ -1,5 +1,6 @@
 .container{
     margin: 40px;
+    margin-top: 10px;
 }
 .supplier_signup{
     
@@ -34,8 +35,8 @@
 }
 .input{
     margin-top: 6px;
-    width: 299.8px;
-    height: 36px;
+    width:314px;
+    height: 40.5px;
     background: #FFFFFF;
     border: 0.6px solid #CDCDCD;
     box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);
@@ -64,8 +65,8 @@
 }
 .phone_number_input{
     margin-top: 6px;
-    width: 299.8px;
-    height: 36px;
+    width:314px;
+    height: 40.5px;
     background: #FFFFFF;
     border: 0.6px solid #CDCDCD;
     box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);
@@ -105,6 +106,8 @@
 }
 
 .state-text{
+    margin: 20px;
+    margin-left: 50px;
     cursor: pointer;
     width: 216px;
     text-align: center;

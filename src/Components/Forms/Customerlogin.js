@@ -182,11 +182,9 @@ export default class Login extends Component {
                 </Stack>
             </StyledButton>
             </Stack>
-            {/* <Link to='/'  style={{textDecoration:'none',textAlign:'center'}}>
-            <div style={{marginTop:'30px',width:'310px'}} >
-                <p style={{color:'gray',fontSize: '12px'}} >You do not have an account? <span style={{color: '#3388EB',textDecoration:'underline'}}> Join Now </span></p>
+            <div className='container state-text'  onClick={this.props.toggle}>
+              <p style={{color:'gray',fontSize: '12px',margin:'0px'}} >You do not have an account?    <span style={{color: '#3388EB',textDecoration:'underline'}}>Join Now</span></p>
             </div>
-        </Link>  */}
         </div>
     )
   }

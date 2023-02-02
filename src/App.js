@@ -1,24 +1,23 @@
 // import "./App.css";
 // import Navbar from "./Components/Navbar";
-
-// function App() {
-//   return (
-//     <div>
-//       <Navbar />
-//     </div>
+import Header from "./Components/Header/Header";
+import Navbar from "./Components/Navbar";
+import { Paper } from "@mui/material";
+import Slider from "./Components/MiddlePart/slider";
+import Ourpartner from "./Components/PartnerSection/Ourpartner";
+import IAmSupplier from "./Components/iAmSupplier";
+import IAmCustomer from "./Components/iAmCustomer";
 import { Stack } from '@mui/system';
 import './App.css';
-import Navbar from './Components/Navbar';
+// import Navbar from './Components/Navbar';
 import Animations from './Components/Animations/Animations';
 import Forms from './Components/Forms/Forms';
 function App() {
   return (
     <>
-      {/* <Navbar></Navbar> */}
-      <Stack direction={'row'} spacing={2} justifyContent="space-between">
-        <Forms></Forms>
-        {/* <Animations></Animations> */}
-      </Stack>
+      <Navbar />
+      <IAmSupplier/>
+      <IAmCustomer/>
     </>
   );
 }
