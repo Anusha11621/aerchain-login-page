@@ -1,9 +1,8 @@
-import { Typography, Box } from "@mui/material";
-import { Stack, width } from "@mui/system";
+import { Typography } from "@mui/material";
 import React, { Component } from "react";
 import dashboardImg from "../MiddlePart/Dashboard.svg";
 import viewpageImg from "../MiddlePart/viewpage.svg";
-import "./sliderStyle.css";
+import "./slider2.css";
 
 class Slider extends Component {
   constructor() {
@@ -14,23 +13,17 @@ class Slider extends Component {
     };
   }
 
-  componentDidMount() {
-    this.interval1 = setInterval(() => {
-      this.setState((prevState) => ({
-        currentImage: prevState.currentImage === 1 ? 2 : 1,
-      }));
-    }, 2000);
-    this.interval2 = setInterval(() => {
-      this.setState((prevState) => ({
-        name: prevState.name === "Dashboard" ? "View Page" : "Dashboard",
-      }));
-    }, 2000);
-  }
+  // componentDidMount() {
+  //   this.interval1 = setInterval(() => {
+  //     this.setState((prevState) => ({
+  //       currentImage: prevState.currentImage === 1 ? 2 : 1,
+  //     }));
+  //   }, 2000);
+  // }
 
-  componentWillUnmount() {
-    clearInterval(this.interval1);
-    clearInterval(this.interval2);
-  }
+  // componentWillUnmount() {
+  //   clearInterval(this.interval1);
+  // }
   render() {
     return (
       <>
@@ -60,22 +53,66 @@ class Slider extends Component {
         >
           {this.state.name}
         </Typography> */}
-        <div class="card image-container">
-          <div class="card-info">
-            <img src={dashboardImg} />
+        <div class="carousel">
+          <div class="carousel__item">
+            <img src={dashboardImg} alt="Image1" />
           </div>
-          <div class="card-bio">
-            <img src={viewpageImg} />
+          <div class="carousel__item">
+            <img src={viewpageImg} alt="Image2" />
+          </div>
+          <div class="carousel__item">
+            <img src={dashboardImg} alt="Image1" />
+          </div>
+          <div class="carousel__item">
+            <img src={viewpageImg} alt="Image2" />
+          </div>
+          <div class="carousel__item">
+            <img src={dashboardImg} alt="Image1" />
+          </div>
+          <div class="carousel__item">
+            <img src={viewpageImg} alt="Image2" />
+          </div>
+          <div class="carousel__item">
+            <img src={dashboardImg} alt="Image1" />
+          </div>
+          <div class="carousel__item">
+            <img src={viewpageImg} alt="Image2" />
+          </div>
+          <div class="carousel__item">
+            <img src={viewpageImg} alt="Image2" />
           </div>
         </div>
-        <Typography
-          style={{
-            color: "#FFFFFF",
-            fontSize: "18px",
-            height: "18px",
-            marginBottom: "31.61px",
-          }}
-        ></Typography>
+        {/* <div class="wrapper">
+          <div class="carousel">
+            <div class="carousel__item">
+              <img src={dashboardImg} alt="Image1" />
+            </div>
+            <div class="carousel__item">
+              <img src={viewpageImg} alt="Image2" />
+            </div>
+            <div class="carousel__item">
+              <img src={viewpageImg} alt="Image2" />
+            </div>
+            <div class="carousel__item">
+              <img src={viewpageImg} alt="Image2" />
+            </div>
+            <div class="carousel__item">
+              <img src={viewpageImg} alt="Image2" />
+            </div>
+            <div class="carousel__item">
+              <img src={viewpageImg} alt="Image2" />
+            </div>
+            <div class="carousel__item">
+              <img src={viewpageImg} alt="Image2" />
+            </div>
+            <div class="carousel__item">
+              <img src={viewpageImg} alt="Image2" />
+            </div>
+            <div class="carousel__item">
+              <img src={viewpageImg} alt="Image2" />
+            </div>
+          </div>
+        </div> */}
       </>
     );
   }
