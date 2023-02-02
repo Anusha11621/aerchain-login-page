@@ -19,6 +19,7 @@ class IAmSupplier extends Component {
             flexDirection: "column",
             alignItems: "center",
             backgroundSize: "cover",
+            textAlign: "center",
           }}
         >
           <Header />
