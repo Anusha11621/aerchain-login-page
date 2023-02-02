@@ -11,7 +11,7 @@
   /* width: 100%;
   max-width: 500px; */
   height: 445px;
-  width: 632px;
+  width: 750px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -22,7 +22,7 @@
   align-items: center;
   position: absolute;
   width: 100%;
-  padding: 0 12px;
+  /* padding: 0 12px; */
   opacity: 0;
   will-change: transform, opacity;
   -webkit-animation: carousel-animate-vertical 27s linear infinite;

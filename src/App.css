@@ -55,3 +55,23 @@ input:focus + .slider {
 input:checked + .slider:before {
   transform: translateX(1.5em);
 }
+
+/* animation between supplier and customer */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  /* width: 100px;
+  height: 100px; */
+  background-color: lightblue;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.container .box:first-child {
+  transform: translateX(0%);
+}
