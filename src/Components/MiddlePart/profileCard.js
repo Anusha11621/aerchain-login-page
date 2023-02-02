@@ -10,19 +10,11 @@ import FrameSvg from "../MiddlePart/frame.svg";
 class ProfileCard extends Component {
   render() {
     return (
-      <div
-      // style={{
-      //   // width: "500px",
-      //   position: "relative",
-      //   backgroundImage: `url(${FrameSvg})`,
-      //   backgroundRepeat: "no-repeat",
-      //   backgroundPosition: "top right",
-      //   left: "-20px",
-      // }}
-      >
+      <>
         <img
-          style={{ position: "absolute", right: "375px", bottom: "2px" }}
+          style={{ position: "absolute", right: "22%", top: "170px" }}
           src={FrameSvg}
+          alt="Frame1"
         />
         <div>
           <Card
@@ -102,11 +94,12 @@ class ProfileCard extends Component {
             </div>
           </Card>
           <img
-            style={{ position: "absolute", right: "375px", bottom: "205px" }}
+            style={{ position: "absolute", right: "42%", bottom: "300px" }}
             src={FrameSvg}
+            alt="Frame2"
           />
         </div>
-      </div>
+      </>
     );
   }
 }
