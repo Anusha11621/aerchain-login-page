@@ -1,4 +1,4 @@
-.container{
+.boxcontainer{
     margin: 40px;
     margin-top: 10px;
 }
@@ -35,8 +35,8 @@
 }
 .input{
     margin-top: 6px;
-    width:314px;
-    height: 40.5px;
+    width:280px;
+    height: 30.5px;
     background: #FFFFFF;
     border: 0.6px solid #CDCDCD;
     box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);
@@ -45,8 +45,8 @@
 }
 .MuiOutlinedInput-root{
     margin-top: 6px;
-    width:314px;
-    height: 40.5px;
+    width:294px;
+    height: 33.5px;
     box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);
 }
 .MuiButton-root{
@@ -65,8 +65,8 @@
 }
 .phone_number_input{
     margin-top: 6px;
-    width:314px;
-    height: 40.5px;
+    width:280px;
+    height: 30.5px;
     background: #FFFFFF;
     border: 0.6px solid #CDCDCD;
     box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);

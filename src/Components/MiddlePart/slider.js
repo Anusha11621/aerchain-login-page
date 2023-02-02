@@ -9,49 +9,71 @@ class Slider extends Component {
   render() {
     return (
       <>
-        <img
+        <div
           style={{
-            position: "absolute",
-            right: "42.7%",
-            top: "175px",
+            position: "relative",
           }}
-          src={FrameSvg}
-          alt="Frame1"
-        />
-        <div style={{ marginBottom: "50px" }} class="carousel">
-          <div class="carousel__item">
-            <img style={{ height: "500px" }} src={dashboardImg} alt="Image1" />
+        >
+          <img
+            style={{
+              position: "absolute",
+              right: "50px",
+              top: "-20px",
+            }}
+            src={FrameSvg}
+            alt="Frame1"
+          />
+          <div style={{ marginBottom: "50px" }} class="carousel">
+            <div class="carousel__item">
+              <img
+                style={{ height: "500px" }}
+                src={dashboardImg}
+                alt="Image1"
+              />
+            </div>
+            <div class="carousel__item">
+              <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
+            </div>
+            <div class="carousel__item">
+              <img
+                style={{ height: "500px" }}
+                src={dashboardImg}
+                alt="Image1"
+              />
+            </div>
+            <div class="carousel__item">
+              <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
+            </div>
+            <div class="carousel__item">
+              <img
+                style={{ height: "500px" }}
+                src={dashboardImg}
+                alt="Image1"
+              />
+            </div>
+            <div class="carousel__item">
+              <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
+            </div>
+            <div class="carousel__item">
+              <img
+                style={{ height: "500px" }}
+                src={dashboardImg}
+                alt="Image1"
+              />
+            </div>
+            <div class="carousel__item">
+              <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
+            </div>
+            <div class="carousel__item">
+              <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
+            </div>
           </div>
-          <div class="carousel__item">
-            <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
-          </div>
-          <div class="carousel__item">
-            <img style={{ height: "500px" }} src={dashboardImg} alt="Image1" />
-          </div>
-          <div class="carousel__item">
-            <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
-          </div>
-          <div class="carousel__item">
-            <img style={{ height: "500px" }} src={dashboardImg} alt="Image1" />
-          </div>
-          <div class="carousel__item">
-            <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
-          </div>
-          <div class="carousel__item">
-            <img style={{ height: "500px" }} src={dashboardImg} alt="Image1" />
-          </div>
-          <div class="carousel__item">
-            <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
-          </div>
-          <div class="carousel__item">
-            <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
-          </div>
+          <img
+            style={{ position: "absolute", left: "-25px", bottom: "50px" }}
+            src={FrameSvg}
+            alt="Frame2"
+          />
         </div>
-        <img
-          style={{ position: "absolute", left: "17.5%", bottom: "300px" }}
-          src={FrameSvg}
-          alt="Frame2"
-        />
       </>
     );
   }
