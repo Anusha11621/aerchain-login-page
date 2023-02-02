@@ -14,10 +14,10 @@ import Forms from './Components/Forms/Forms';
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <Stack direction={'row'} spacing={2} justifyContent="space-between">
         <Forms></Forms>
-        <Animations></Animations>
+        {/* <Animations></Animations> */}
       </Stack>
     </>
   );

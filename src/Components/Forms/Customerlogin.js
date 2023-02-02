@@ -79,7 +79,7 @@ export default class Login extends Component {
   render() {
     return (
         <div className='container' id='box'>
-            <Typography className='supplier_signup' variant='h5'><b>Supplier Login</b></Typography>
+            <Typography className='supplier_signup' variant='h5'><b>Customer Login</b></Typography>
             <Typography variant='p' className='para'>Lorem ipsum dolor sit ame consectetur emet</Typography>
             <Stack>
                 <label className='label' style={{marginTop:'16px'}}>E-Mail</label>
@@ -182,9 +182,11 @@ export default class Login extends Component {
                 </Stack>
             </StyledButton>
             </Stack>
-            <div className='container state-text'  onClick={this.props.toggle}>
-              <p style={{color:'gray',fontSize: '12px',margin:'0px'}} >You do not have an account?    <span style={{color: '#3388EB',textDecoration:'underline'}}>Join Now</span></p>
+            {/* <Link to='/'  style={{textDecoration:'none',textAlign:'center'}}>
+            <div style={{marginTop:'30px',width:'310px'}} >
+                <p style={{color:'gray',fontSize: '12px'}} >You do not have an account? <span style={{color: '#3388EB',textDecoration:'underline'}}> Join Now </span></p>
             </div>
+        </Link>  */}
         </div>
     )
   }

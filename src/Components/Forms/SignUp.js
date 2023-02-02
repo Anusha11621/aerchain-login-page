@@ -135,7 +135,7 @@ export default class SignUp extends Component {
   render() {
     // console.log(this.state);
     return (
-      <Box sx={{padding:'40px', paddingLeft:'80px'}}>
+      <div className='container' id='box'>
         <Typography className='supplier_signup' variant='h5'><b>Supplier Signup</b></Typography>
         <Typography variant='p' className='para' >Lorem ipsum dolor sit ame consectetur emet</Typography>
         <Stack>
@@ -184,7 +184,7 @@ export default class SignUp extends Component {
             <OutlinedInput
             id = 'currentPassword'
             className='password_input'
-            sx={{height:'40.5px', width:'314px',marginTop:'6px'}}
+            // sx={{height:'40.5px', width:'314px',marginTop:'6px'}}
             //   id="outlined-adornment-password"
                 onChange = {this.currentPasswordHandel}
               placeholder='password'
@@ -211,8 +211,8 @@ export default class SignUp extends Component {
         <Stack>
             <label className='label'> Confirm Password</label>
             <OutlinedInput
-            className='password_input'
-            sx={{height:'40.5px', width:'314px',marginTop:'6px'}}
+            className='MuiOutlinedInput-root'
+            // sx={{height:'40.5px', width:'314px',marginTop:'6px'}}
             onChange = {this.confirmPasswordHandel}
               id="confirmPassword"
               placeholder='password'
@@ -239,19 +239,19 @@ export default class SignUp extends Component {
         <Button direction={'column'} 
             variant="contained"
             onClick={this.errorHandeler}
-            sx={{marginTop:'10px',width: '314px',height: '36.66px',background: '#3388EB', textTransform : 'none'}}>
+            className = 'MuiButton-root'
+            // sx={{marginTop:'10px',width: '314px',height: '36.66px',background: '#3388EB', textTransform : 'none'}}
+            >
               Sign Up
         </Button>
-        <div style={{border:'0.1px solid rgba(49, 49, 49, 0.5)', width:'310px',position:'relative', marginTop:'30px'}}>
+        <div className='line' style={{border:'0.1px solid rgba(49, 49, 49, 0.5)',position:'relative', marginTop:'30px'}}>
           <p style={{background:'white',position:'absolute',top:'-30px',left:'42%',padding:'0px 20px'}}>or</p>
         </div>
  
-        {/* <Link to='/login'  style={{textDecoration:'none',textAlign:'center'}}>
-            <div style={{marginTop:'30px',width:'310px'}} >
-                <p style={{color:'gray',fontSize: '12px'}} >Already have an account?  <span style={{color: '#3388EB',textDecoration:'underline'}}>Login Now</span></p>
-            </div>
-        </Link>         */}
-      </Box>
+        <div className='container state-text' onClick={this.props.toggle}>
+                <p style={{color:'gray',fontSize: '12px',margin:'0px'}} >Already have an account?  <span style={{color: '#3388EB',textDecoration:'underline'}}>Login Now</span></p>
+        </div>
+      </div>
     )
   }
 }

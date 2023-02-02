@@ -1,4 +1,6 @@
-
+.container{
+    margin: 40px;
+}
 .supplier_signup{
     
     font-weight: 900;
@@ -39,6 +41,15 @@
     box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);
     border-radius: 6px;
     padding-left:10px ;
+}
+.MuiOutlinedInput-root{
+    margin-top: 6px;
+    width:314px;
+    height: 40.5px;
+    box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);
+}
+.MuiButton-root{
+    width:314px;
 }
 .input:hover{
     border:0.6px solid black;
@@ -91,4 +102,50 @@
     font-size: 12px;    
     font-style: normal;
     font-weight: 400;
+}
+
+.state-text{
+    cursor: pointer;
+    width: 216px;
+    text-align: center;
+}
+.line{
+    width: 310px;
+}
+.css-1nbawsp-MuiStack-root{
+    width: 316px;
+}
+.labels{
+    width: 316px;
+}
+@media(max-width:700px){
+    .input{
+        width: 95%;
+    }
+    .phone_number_input{
+        width: 95%;
+    }
+    .MuiOutlinedInput-root{
+        width: 100%;
+    }
+    .container{
+        margin: 20px;
+        
+    }
+    .MuiButton-root{
+        width: 100%;
+    }
+    .line{
+        width:100%
+    }
+    .css-1nbawsp-MuiStack-root{
+        width:100%;
+    }
+    .labels{
+        width: 100%;
+    }
+    .state-text{
+        cursor: pointer;
+        width: 80%;
+    }
 }

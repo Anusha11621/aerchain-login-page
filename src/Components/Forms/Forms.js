@@ -27,17 +27,12 @@ signupHandler = ()=>{
         {
           this.state.login?
           <>
-          <SignUp></SignUp>
-          <div style={{width:'480px',textAlign:'center',cursor:'pointer'}} onClick={this.loginHandler}>
-                <p style={{color:'gray',fontSize: '12px',margin:'0px'}} >Already have an account?  <span style={{color: '#3388EB',textDecoration:'underline'}}>Login Now</span></p>
-          </div>
+          <SignUp toggle={this.loginHandler}/>
           </>
           :
           <>
-            <Login></Login>
-            <div style={{width:'480px',textAlign:'center',cursor:'pointer'}} onClick={this.signupHandler}>
-              <p style={{color:'gray',fontSize: '12px',margin:'0px'}} >You do not have an account?    <span style={{color: '#3388EB',textDecoration:'underline'}}>Join Now</span></p>
-            </div>
+            <Login toggle={this.signupHandler}></Login>
+            
           </>
         }
       </Box>
