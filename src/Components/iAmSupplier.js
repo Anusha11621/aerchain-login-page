@@ -9,25 +9,18 @@ class IAmSupplier extends Component {
     return (
       <div style={{ display: "flex" }}>
         <div
+          className="hidden-component"
           style={{
-            width: "100%",
-            height: "100vh",
             backgroundImage: `url(${background})`,
             backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            backgroundSize: "cover",
-            textAlign: "center",
           }}
         >
           <Header />
           <Slider />
           <Ourpartner />
         </div>
-        <div style={{ width: "40%" }}>
-          <CustomerForm/>
+        <div className="form-width">
+          <CustomerForm />
         </div>
       </div>
     );

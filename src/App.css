@@ -55,3 +55,32 @@ input:focus + .slider {
 input:checked + .slider:before {
   transform: translateX(1.5em);
 }
+.hidden-component {
+  /* visibility: hidden; */
+  position: "static";
+  width: 100%;
+  height: 100vh;
+  min-height: 700px;
+  background-image: url("./backgroundBlueImage.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+}
+
+.form-width {
+  width: 40%;
+}
+
+@media (max-width: 1340px) {
+  .hidden-component {
+    /* visibility: hidden; */
+    display: none;
+    width: 0px;
+  }
+  .form-width {
+    width: 100%;
+  }
+}

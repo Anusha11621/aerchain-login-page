@@ -12,7 +12,7 @@ class ProfileCard extends Component {
     return (
       <>
         <img
-          style={{ position: "absolute", right: "22%", top: "170px" }}
+          style={{ position: "absolute", right: "22%", top: "165px" }}
           src={FrameSvg}
           alt="Frame1"
         />
@@ -94,7 +94,7 @@ class ProfileCard extends Component {
             </div>
           </Card>
           <img
-            style={{ position: "absolute", right: "42%", bottom: "300px" }}
+            style={{ position: "absolute", right: "42%", top: "475px" }}
             src={FrameSvg}
             alt="Frame2"
           />
