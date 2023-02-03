@@ -32,7 +32,7 @@ class App extends Component {
             }}
           >
             <Toolbar className="navbar-container">
-              {/* <img src={logo} alt="Not Found" style={{ paddingLeft: "14px" }} /> */}
+              <img src={logo} alt="Not Found"  className= 'logoimg' />
 
               <div
                 style={{ display: "flex", gap: "6px", alignItems: "center" }}
