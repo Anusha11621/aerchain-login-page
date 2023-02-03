@@ -136,8 +136,10 @@ export default class SignUp extends Component {
     // console.log(this.state);
     return (
       <div className='boxcontainer' id='box'>
+        <div style={{textAlign:'left'}}>
         <Typography className='supplier_signup' variant='h5'><b>Customer Signup</b></Typography>
         <Typography variant='p' className='para' >Lorem ipsum dolor sit ame consectetur emet</Typography>
+        </div>
         <Stack>
             <label className='label' style={{marginTop:'16px'}}>Name</label>
             <input 
