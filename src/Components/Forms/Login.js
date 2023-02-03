@@ -11,7 +11,6 @@ import { Link } from 'react-router-dom'
 // import logo198 from '../../../'
 const StyledButton = styled.button`
     margin-top:27px;
-    
     height: 36.66px;
     color:black;
     border:0.6px solid gray;
@@ -150,9 +149,9 @@ export default class Login extends Component {
             <Stack display={'flex'}>
             <StyledButton direction={'column'} 
                 variant="outlined"
-                
-                sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
-                    textTransform : 'none'}}
+                className='css-1nbawsp-MuiStack-root'
+                // sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
+                //     textTransform : 'none'}}
                 >
                 <Stack display={'flex'} flexDirection={'row'} justifyContent="center" alignItems={'center'} gap={1} marginTop={-0.5}>
                   <img src={mobile}></img>
@@ -161,9 +160,9 @@ export default class Login extends Component {
             </StyledButton>
             <StyledButton direction={'column'} 
                 variant="outlined"
-                
-                sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
-                    textTransform : 'none'}}
+                className='css-1nbawsp-MuiStack-root'
+                // sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
+                //     textTransform : 'none'}}
                 >
                 <Stack display={'flex'} flexDirection={'row'} justifyContent="center" alignItems={'center'} gap={1} marginTop={-0.5}>
                   <img src={google}></img>
@@ -174,9 +173,9 @@ export default class Login extends Component {
 
             <StyledButton direction={'column'} 
                 variant="outlined"
-                
-                sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
-                    textTransform : 'none'}}
+                className='css-1nbawsp-MuiStack-root'
+                // sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
+                //     textTransform : 'none'}}
                 >
                 <Stack display={'flex'} flexDirection={'row'} justifyContent="center" alignItems={'center'} gap={1} marginTop={-0.5}>
                   <img src={microsoft}></img>

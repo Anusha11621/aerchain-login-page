@@ -80,9 +80,9 @@ export default class Login extends Component {
     return (
         <div className='boxcontainer' id='box'>
           <div style={{textAlign:'left'}}>
-            <Typography className='supplier_signup' variant='h5'><b>Supplier Login</b></Typography>
+            <Typography className='supplier_signup' variant='h5'><b>Customer Login</b></Typography>
             <Typography variant='p' className='para'>Lorem ipsum dolor sit ame consectetur emet</Typography>
-          </div>
+            </div>
             <Stack>
                 <label className='label' style={{marginTop:'16px'}}>E-Mail</label>
                 <input 
@@ -150,9 +150,9 @@ export default class Login extends Component {
             <Stack display={'flex'}>
             <StyledButton direction={'column'} 
                 variant="outlined"
-                
-                sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
-                    textTransform : 'none'}}
+                className='css-1nbawsp-MuiStack-root'
+                // sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
+                //     textTransform : 'none'}}
                 >
                 <Stack display={'flex'} flexDirection={'row'} justifyContent="center" alignItems={'center'} gap={1} marginTop={-0.5}>
                   <img src={mobile}></img>
@@ -161,9 +161,9 @@ export default class Login extends Component {
             </StyledButton>
             <StyledButton direction={'column'} 
                 variant="outlined"
-                
-                sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
-                    textTransform : 'none'}}
+                className='css-1nbawsp-MuiStack-root'
+                // sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
+                //     textTransform : 'none'}}
                 >
                 <Stack display={'flex'} flexDirection={'row'} justifyContent="center" alignItems={'center'} gap={1} marginTop={-0.5}>
                   <img src={google}></img>
@@ -174,9 +174,9 @@ export default class Login extends Component {
 
             <StyledButton direction={'column'} 
                 variant="outlined"
-                
-                sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
-                    textTransform : 'none'}}
+                className='css-1nbawsp-MuiStack-root'
+                // sx={{marginTop:'10px',width: '314px',height: '36.66px',color:'black',border:'0.6px solid gray',
+                //     textTransform : 'none'}}
                 >
                 <Stack display={'flex'} flexDirection={'row'} justifyContent="center" alignItems={'center'} gap={1} marginTop={-0.5}>
                   <img src={microsoft}></img>
