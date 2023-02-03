@@ -80,9 +80,9 @@ export default class Login extends Component {
     return (
         <div className='boxcontainer' id='box'>
           <div style={{textAlign:'left'}}>
-            <Typography className='supplier_signup' variant='h5'><b>Customer Login</b></Typography>
+            <Typography className='supplier_signup' variant='h5'><b>Supplier Login</b></Typography>
             <Typography variant='p' className='para'>Lorem ipsum dolor sit ame consectetur emet</Typography>
-            </div>
+          </div>
             <Stack>
                 <label className='label' style={{marginTop:'16px'}}>E-Mail</label>
                 <input 

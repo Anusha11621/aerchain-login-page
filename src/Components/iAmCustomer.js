@@ -3,29 +3,15 @@ import Header from "./Header/Header";
 import ProfileCard from "./MiddlePart/profileCard";
 import Ourpartner from "./PartnerSection/Ourpartner";
 import background from "../backgroundBlueImage.svg";
-import Froms from '../Components/Forms/Forms'
+import Froms from "../Components/Forms/Forms";
 class IAmCustomer extends Component {
   render() {
     return (
       <div style={{ display: "flex" }}>
-        <div style={{ width: "40%" }}>
-          <Froms/>
+        <div className="form-width">
+          <Froms />
         </div>
-        <div
-          style={{
-            position: "static",
-            width: "100%",
-            height: "100vh",
-            minHeight: "700px",
-            backgroundImage: `url(${background})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            backgroundSize: "cover",
-          }}
-        >
+        <div className="hidden-component">
           <Header />
           <ProfileCard />
           <Ourpartner />

@@ -135,7 +135,8 @@ export default class SignUp extends Component {
   render() {
     // console.log(this.state);
     return (
-      <div className='boxcontainer' id='box'>
+      <div className='center'>
+        <div className='boxcontainer' id='box'>
         <div style={{textAlign:'left'}}>
         <Typography className='supplier_signup' variant='h5'><b>Customer Signup</b></Typography>
         <Typography variant='p' className='para' >Lorem ipsum dolor sit ame consectetur emet</Typography>
@@ -253,6 +254,7 @@ export default class SignUp extends Component {
         <div className='boxcontainer state-text' onClick={this.props.toggle}>
                 <p style={{color:'gray',fontSize: '12px',margin:'0px'}} >Already have an account?  <span style={{color: '#3388EB',textDecoration:'underline'}}>Login Now</span></p>
         </div>
+      </div>
       </div>
     )
   }
