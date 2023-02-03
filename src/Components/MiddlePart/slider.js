@@ -25,47 +25,31 @@ class Slider extends Component {
           />
           <div style={{ marginBottom: "50px" }} class="carousel">
             <div class="carousel__item">
-              <img
-                style={{ height: "500px" }}
-                src={dashboardImg}
-                alt="Image1"
-              />
+              <img className="slider-images" src={dashboardImg} alt="Image1" />
             </div>
             <div class="carousel__item">
-              <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
+              <img className="slider-images" src={viewpageImg} alt="Image2" />
             </div>
             <div class="carousel__item">
-              <img
-                style={{ height: "500px" }}
-                src={dashboardImg}
-                alt="Image1"
-              />
+              <img className="slider-images" src={dashboardImg} alt="Image1" />
             </div>
             <div class="carousel__item">
-              <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
+              <img className="slider-images" src={viewpageImg} alt="Image2" />
             </div>
             <div class="carousel__item">
-              <img
-                style={{ height: "500px" }}
-                src={dashboardImg}
-                alt="Image1"
-              />
+              <img className="slider-images" src={dashboardImg} alt="Image1" />
             </div>
             <div class="carousel__item">
-              <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
+              <img className="slider-images" src={viewpageImg} alt="Image2" />
             </div>
             <div class="carousel__item">
-              <img
-                style={{ height: "500px" }}
-                src={dashboardImg}
-                alt="Image1"
-              />
+              <img className="slider-images" src={dashboardImg} alt="Image1" />
             </div>
             <div class="carousel__item">
-              <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
+              <img className="slider-images" src={viewpageImg} alt="Image2" />
             </div>
             <div class="carousel__item">
-              <img style={{ height: "500px" }} src={viewpageImg} alt="Image2" />
+              <img className="slider-images" src={viewpageImg} alt="Image2" />
             </div>
           </div>
           <img
