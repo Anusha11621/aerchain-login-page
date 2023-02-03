@@ -9,6 +9,9 @@
   flex-direction: column;
 }
 
+.slider-images {
+  width: 100%;
+}
 .carousel__item {
   display: flex;
   align-items: center;
@@ -96,5 +99,42 @@
   100% {
     transform: translateX(-100%) scale(0.5);
     visibility: hidden;
+  }
+}
+
+/* ------------------ Media query ----------------------*/
+@media (max-width: 1340px) {
+  @keyframes carousel-animate-vertical {
+    0% {
+      transform: translateX(10%) scale(0);
+      opacity: 0;
+      visibility: hidden;
+    }
+    3%,
+    11.1111111111% {
+      transform: translateX(40%) scale(0.3);
+      opacity: 0;
+      visibility: visible;
+    }
+    14.1111111111%,
+    22.2222222222% {
+      transform: translateX(0) scale(1);
+      opacity: 1;
+      visibility: visible;
+    }
+    25.2222222222%,
+    33.3333333333% {
+      transform: translateX(-100%) scale(0.7);
+      opacity: 0;
+      visibility: visible;
+    }
+    36.3333333333% {
+      transform: translateX(-100%) scale(0.5);
+      visibility: visible;
+    }
+    100% {
+      transform: translateX(-100%) scale(0.5);
+      visibility: hidden;
+    }
   }
 }
