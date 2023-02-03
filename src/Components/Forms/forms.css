@@ -1,0 +1,219 @@
+.logoimg{
+    /* background-color: pink; */
+    padding: 10px;
+    width: 10%;
+}
+.boxcontainer{
+    padding: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.supplier_signup {
+  font-weight: 900;
+  font-size: 27px;
+  color: #313131;
+}
+.p {
+  margin: 0px;
+  margin-bottom: 10px;
+  color: red;
+  font-size: 14px;
+}
+.pr {
+  margin: 0px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 14px;
+}
+.para {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(49, 49, 49, 0.7);
+}
+.label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #313131;
+}
+.input {
+  margin-top: 6px;
+  /* width: 280px; */
+  width: 80%;
+  height: 30.5px;
+  background: #ffffff;
+  border: 0.6px solid #cdcdcd;
+  box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);
+  border-radius: 6px;
+  padding-left: 10px;
+}
+.MuiOutlinedInput-root {
+  margin-top: 6px;
+  /* width: 294px; */
+  width: 83%;
+  height: 33.5px;
+  box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);
+}
+.MuiButton-root{
+    /* width:294px; */
+    width: 83%;
+}
+.input:hover {
+  border: 0.6px solid black;
+}
+.input::placeholder {
+  font-size: 14px;
+  color: rgba(49, 49, 49, 0.5);
+  padding-left: 25px;
+  background-image: url("../../../public/Icon.svg");
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+.phone_number_input {
+  margin-top: 6px;
+  /* width: 280px; */
+  width: 80%;
+  height: 30.5px;
+  background: #ffffff;
+  border: 0.6px solid #cdcdcd;
+  box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);
+  border-radius: 6px;
+  padding-left: 10px;
+}
+.phone_number_input::placeholder {
+  font-size: 14px;
+  color: rgba(49, 49, 49, 0.5);
+  padding-left: 4px;
+  margin: 10px;
+}
+.password_input {
+  background: #ffffff;
+  border: #cdcdcd;
+  box-shadow: 2px 2px 20px rgba(49, 49, 49, 0.05);
+  border-radius: 10px;
+}
+.MuiInputBase-input::placeholder {
+  font-size: 14px !important;
+  color: rgba(49, 49, 49, 0.5);
+  padding-left: 25px;
+  background-image: url("../../../public/lock.svg");
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+.password_input:focus {
+  /* border: black; */
+  outline: black;
+}
+
+.checkbox_label {
+  color: rgba(49, 49, 49, 0.7);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.state-text {
+  
+  cursor: pointer;
+  /* width: 216px; */
+  width: 65%;
+  text-align: center;
+}
+.line {
+  /* width: 310px; */
+  width: 100%;
+}
+.css-1nbawsp-MuiStack-root {
+  /* width: 316px; */
+  width: 100%;
+}
+.labels {
+  /* width: 316px; */
+  width: 100%;
+}
+.line{
+    /* width: 310px; */
+    width: 83%;
+}
+.css-1nbawsp-MuiStack-root{
+    /* width: 316px; */
+    width: 83%;
+}
+.labels{
+    /* width: 316px; */
+    width: 83%;
+}
+
+@media(max-width:1200px){
+    .boxcontainer{
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logoimg{
+        width: 15%;
+    }
+    .input{
+        width: 70%;
+    }
+    .phone_number_input{
+        width: 70%;
+    }
+    .MuiOutlinedInput-root{
+        width: 72%;
+    }
+    .MuiButton-root{
+        width: 72.2%;
+    }
+    .line{
+        width:72%
+    }
+    .css-1nbawsp-MuiStack-root{
+        width:72.5%;
+    }
+    .labels{
+        width: 72.2%;
+    }
+    .state-text{
+        cursor: pointer;
+        /* width: 50%; */
+    }
+}
+
+@media (max-width: 700px) {
+    .logoimg{
+        width: 30%;
+    }
+  .input {
+    width: 95%;
+  }
+  .phone_number_input {
+    width: 95%;
+  }
+  .MuiOutlinedInput-root {
+    width: 100%;
+  }
+  .container {
+    margin: 20px;
+  }
+  .MuiButton-root {
+    width: 100%;
+  }
+  .line {
+    width: 100%;
+  }
+  .css-1nbawsp-MuiStack-root {
+    width: 100%;
+  }
+  .labels {
+    width: 100%;
+  }
+  .state-text {
+    cursor: pointer;
+    width: 93%;
+  }
+}
+
+
